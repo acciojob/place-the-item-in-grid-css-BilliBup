@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: grid;
+  grid-template-columns: repeat(2, 100px); /* Creates 2 columns of 100px each */
+  grid-template-rows: repeat(2, 100px); /* Creates 2 rows of 100px each */
+  gap: 0; /* Removes gaps between grid items */
+  width: 200px; /* Sets width of the grid container to 200px */
+  height: 200px; /* Sets height of the grid container to 200px */
+}
+.item {
+  background-color: #ccc; /* Sets background color of grid items */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
